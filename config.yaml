@@ -1,0 +1,5 @@
+tf_link_db: "https://cdn.netbiol.org/tflink/download_files/TFLink_Homo_sapiens_interactions_All_simpleFormat_v1.0.tsv.gz"
+kg2: 
+  nodes: "http://rtx-kg2-public.s3-website-us-west-2.amazonaws.com/kg2c-2.10.1-v1.0-nodes.jsonl.gz"
+  edges: "http://rtx-kg2-public.s3-website-us-west-2.amazonaws.com/kg2c-2.10.1-v1.0-edges.jsonl.gz"
+  synonymizer: "http://rtx-kg2-public.s3-website-us-west-2.amazonaws.com/node_synonymizer_v1.0_KG2.10.1.sqlite"
