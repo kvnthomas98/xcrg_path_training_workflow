@@ -20,7 +20,7 @@ conda env create -f envs/xcrg_path_training.yml
 conda activate xcrg_path_training
 ```
 
-> 💡 Ensure you have [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/) installed before proceeding.
+>  Ensure you have [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/) installed before proceeding.
 
 ---
 
