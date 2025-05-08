@@ -23,7 +23,12 @@ conda activate xcrg_path_training
 >  Ensure you have [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/) installed before proceeding.
 
 ---
+### Step 3: Update the KG2 Version
 
+
+Modify KG2 version to the version you want to use [in this section](https://github.com/kvnthomas98/xcrg_path_training_workflow/blob/main/config.yaml#L2)
+
+---
 ## Running the Workflow
 
 Once the environment is activated, you can execute the Snakemake workflow.
@@ -49,3 +54,18 @@ snakemake -n
 ```
 
 ---
+
+### Final Output
+
+In the `results/` folder all the necessary files for utilizing the model will be present.
+
+`results/node_ids.npy` contains node indices mapping.
+
+`results/node2vec_embeddings.npy` contains node2vec embedding.
+
+`results/graph.pkl` provides the KG2 graph in a networkx form.
+
+`results/ffnn_node2vec.pth` provides weights for the models.
+
+---
+
