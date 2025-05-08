@@ -12,7 +12,7 @@ training_data = pd.read_csv(input_file, sep="\t", on_bad_lines="skip")
 training_data.rename(columns={"NCBI.GeneID.Target": "node1_id", "NCBI.GeneID.TF": "node2_id"}, inplace=True)
 training_data.fillna("", inplace=True)
 
-# 🚀 Prepend 'NCBIGene:' to node1_id and node2_id
+#  Prepend 'NCBIGene:' to node1_id and node2_id
 training_data["node1_id"] = "NCBIGene:" + training_data["node1_id"].astype(str)
 training_data["node2_id"] = "NCBIGene:" + training_data["node2_id"].astype(str)
 
